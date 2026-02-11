@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20 -DCMAKE_INSTALL_PREFIX=/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server
+[0.228s] -- The C compiler identification is GNU 13.3.0
+[0.397s] -- The CXX compiler identification is GNU 13.3.0
+[0.424s] -- Detecting C compiler ABI info
+[0.511s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.520s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.530s] -- Detecting CXX compiler ABI info
+[0.614s] -- Detecting CXX compiler ABI info - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.625s] -- Detecting CXX compile features
+[0.625s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.763s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.872s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.914s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.927s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.109s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.131s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.219s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.268s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.358s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.362s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.362s] -- Configured cppcheck include dirs: 
+[1.362s] -- Configured cppcheck exclude dirs and/or files: 
+[1.366s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.366s] -- Configured cpplint exclude dirs and/or files: 
+[1.368s] -- Added test 'lint_cmake' to check CMake code style
+[1.372s] -- Added test 'uncrustify' to check C / C++ code style
+[1.372s] -- Configured uncrustify additional arguments: 
+[1.373s] -- Added test 'xmllint' to check XML markup files
+[1.374s] -- Configuring done (1.3s)
+[1.389s] -- Generating done (0.0s)
+[1.392s] -- Build files have been written to: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server
+[1.399s] Invoked command in '/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20 -DCMAKE_INSTALL_PREFIX=/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server
+[1.400s] Invoking command in '/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server -- -j16 -l16
+[1.450s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[3.856s] [100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[3.991s] [100%] Built target add_two_ints_server
+[4.001s] Invoked command in '/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server -- -j16 -l16
+[4.010s] Invoking command in '/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server
+[4.018s] -- Install configuration: ""
+[4.018s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/lib/ros2_service_server/add_two_ints_server
+[4.019s] -- Set non-toolchain portion of runtime path of "/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/lib/ros2_service_server/add_two_ints_server" to ""
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ament_index/resource_index/package_run_dependencies/ros2_service_server
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ament_index/resource_index/parent_prefix_path/ros2_service_server
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/environment/ament_prefix_path.sh
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/environment/ament_prefix_path.dsv
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/environment/path.sh
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/environment/path.dsv
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/local_setup.bash
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/local_setup.sh
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/local_setup.zsh
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/local_setup.dsv
+[4.019s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/package.dsv
+[4.020s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ament_index/resource_index/packages/ros2_service_server
+[4.020s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/cmake/ros2_service_serverConfig.cmake
+[4.020s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/cmake/ros2_service_serverConfig-version.cmake
+[4.020s] -- Installing: /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/install/ros2_service_server/share/ros2_service_server/package.xml
+[4.022s] Invoked command in '/home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/prajith/Desktop/ros2/src/assignment-ros2-c-service-server-PrajithS20/build/ros2_service_server

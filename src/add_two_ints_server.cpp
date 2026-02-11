@@ -25,11 +25,22 @@ public:
         : Node("add_two_ints_server")
     {
         // TODO: Create the service here
+	service_ = this->create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", std::bind(&AddTwoIntsServer::add, this, _1, _2));
+        RCLCPP_INFO(this->get_logger(), "Service server ready to add two ints.");
     }
 
 private:
     // TODO: Define the service callback function here
+    void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+             std::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response)
+    {
+        // Add the two integers
+        response->sum = request->a + request->b;
 
+        // Log the request and response
+        RCLCPP_INFO(this->get_logger(), "Incoming request: a=%ld, b=%ld", request->a, request->b);
+        RCLCPP_INFO(this->get_logger(), "Sending response: sum=%ld", response->sum);
+    }
     rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr service_;
 };
 
